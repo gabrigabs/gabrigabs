@@ -1,8 +1,14 @@
-<h1 align="center">Gabriel Bezerra</h1>
+<p align="center">
+  <img
+    width="100%"
+    src="https://capsule-render.vercel.app/api?type=waving&height=140&color=0:0F172A,45:2563EB,100:38BDF8&text=Gabriel%20Bezerra&fontColor=FFFFFF&fontSize=42&fontAlignY=34&animation=fadeIn"
+    alt="Gabriel Bezerra"
+  />
+</p>
 
 <p align="center">
   <img
-    src="https://readme-typing-svg.demolab.com?font=Inter&size=20&duration=2600&pause=900&color=38BDF8&center=true&vCenter=true&width=760&lines=Software+Engineer;Products%2C+automation+and+developer+tools;AI-assisted+engineering+with+clarity+and+discipline"
+    src="https://readme-typing-svg.demolab.com?font=Inter&weight=500&size=21&duration=2600&pause=900&color=38BDF8&center=true&vCenter=true&width=820&lines=Software+Engineer;Products%2C+automation+and+developer+tools;AI-assisted+engineering+with+clarity+and+discipline;Building+systems+that+are+useful%2C+clear+and+easy+to+evolve"
     alt="Software Engineer. Products, automation and developer tools. AI-assisted engineering with clarity and discipline."
   />
 </p>
@@ -12,8 +18,19 @@
 </p>
 
 <p align="center">
+  <a href="https://gabrielbezerra.com.br/">
+    <img src="https://img.shields.io/badge/Portfolio-gabrielbezerra.com.br-38BDF8?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Portfolio" />
+  </a>
+  <a href="https://github.com/gabrigabs?tab=repositories">
+    <img src="https://img.shields.io/badge/GitHub-Repositories-111827?style=for-the-badge&logo=github&logoColor=white" alt="Repositories" />
+  </a>
+</p>
+
+<p align="center">
   <a href="#about">About</a> ·
+  <a href="#working-style">Working Style</a> ·
   <a href="#stack-and-tools">Stack</a> ·
+  <a href="#signal">Signal</a> ·
   <a href="#contact">Contact</a>
 </p>
 
@@ -27,12 +44,26 @@ My strongest base is in APIs, distributed systems and integrations, but I like w
 
 Recently, I have been exploring AI-assisted engineering, agents, repository context, living documentation and workflows that connect research, specification, implementation and review.
 
-## What I Care About
+## Working Style
 
-- Products and tools that reduce real friction in day-to-day software work.
-- Automation, agents and AI-assisted flows with technical discipline, not just hype.
-- APIs, integrations, queues, workers, operational dashboards and internal interfaces.
-- Readable code, tests, documentation and small design decisions that make systems easier to evolve.
+<table>
+  <tr>
+    <td><strong>Product-aware</strong></td>
+    <td>I like understanding the real workflow before choosing the technical shape.</td>
+  </tr>
+  <tr>
+    <td><strong>Automation-minded</strong></td>
+    <td>I look for repetitive work, hidden handoffs and places where better tooling can remove friction.</td>
+  </tr>
+  <tr>
+    <td><strong>System-focused</strong></td>
+    <td>I care about APIs, integrations, queues, observability, tests and clear operational behavior.</td>
+  </tr>
+  <tr>
+    <td><strong>AI-pragmatic</strong></td>
+    <td>I use AI workflows to improve speed and context quality without dropping engineering discipline.</td>
+  </tr>
+</table>
 
 ## Stack and Tools
 
@@ -49,6 +80,17 @@ Recently, I have been exploring AI-assisted engineering, agents, repository cont
   <img alt="AWS" src="https://img.shields.io/badge/AWS-232F3E?style=flat-square&logo=amazonwebservices&logoColor=white" />
   <img alt="Docker" src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white" />
   <img alt="GitHub Actions" src="https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white" />
+</p>
+
+## Signal
+
+<p align="center">
+  <img height="165" src="https://github-readme-stats.vercel.app/api?username=gabrigabs&show_icons=true&hide_border=true&theme=tokyonight&rank_icon=github&include_all_commits=true" alt="GitHub stats" />
+  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=gabrigabs&layout=compact&hide_border=true&theme=tokyonight" alt="Most used languages" />
+</p>
+
+<p align="center">
+  <img width="96%" src="https://github-readme-activity-graph.vercel.app/graph?username=gabrigabs&theme=tokyo-night&hide_border=true&area=true&custom_title=Contribution%20Flow" alt="Contribution flow" />
 </p>
 
 ## Current Direction
@@ -71,6 +113,15 @@ Some public repositories are labs, proofs of concept or ideas still taking shape
 
 ## Contact
 
+- Portfolio: [gabrielbezerra.com.br](https://gabrielbezerra.com.br/)
 - GitHub: [@gabrigabs](https://github.com/gabrigabs)
 - Location: Fortaleza, Brazil
 - Good topics: product, engineering, automation, tooling, applied AI and software quality.
+
+<p align="center">
+  <img
+    width="100%"
+    src="https://capsule-render.vercel.app/api?type=waving&height=90&color=0:38BDF8,55:2563EB,100:0F172A&section=footer"
+    alt=""
+  />
+</p>
