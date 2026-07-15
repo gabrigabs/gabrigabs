@@ -1,6 +1,9 @@
 name: Update contribution game
 
 on:
+  push:
+    branches:
+      - main
   workflow_dispatch:
   schedule:
     - cron: "17 3 * * *"
@@ -23,6 +26,10 @@ jobs:
         with:
           ref: output
           fetch-depth: 2
+
+      - name: Remove legacy game assets
+        shell: bash
+        run: git rm -f commit-invaders.svg commit-invaders-dark.svg 2>/dev/null || true
 
       - name: Generate contribution game
         uses: czl9707/gh-space-shooter@v2
