@@ -1,4 +1,4 @@
-name: Generate Commit Invaders
+name: Update contribution game
 
 on:
   workflow_dispatch:
@@ -20,9 +20,13 @@ jobs:
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
+        with:
+          ref: output
+          fetch-depth: 2
 
       - name: Generate contribution game
-        uses: Goblinlordx/commit-invaders@49ce2ef7dd90272cd98dd06ab39dfeede05897c6 # v1
+        uses: czl9707/gh-space-shooter@v2
         with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          github_user_name: ${{ github.repository_owner }}
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+          output-path: gh-space-shooter.gif
+          strategy: random

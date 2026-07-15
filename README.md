@@ -7,20 +7,20 @@
   ·
   <a href="#selected-work">Selected work</a>
   ·
-  <a href="#agora">Agora</a>
+  <a href="#current-focus">Current focus</a>
   ·
-  <a href="#commit-invaders">Commit Invaders</a>
+  <a href="#contribution-game">Contribution game</a>
   ·
   <a href="#connect">Connect</a>
 </p>
 
 ## I build useful systems — and leave clear traces
 
-I am a software engineer from Fortaleza, Brazil. My strongest base is in APIs, distributed systems and integrations, but I work across the whole problem: understanding the workflow, shaping the product, shipping the software and making it easier to operate and evolve.
+I am a product-minded software engineer from Fortaleza, Brazil. I work from the inside out: model the domain, design the contracts, ship the product and leave behind systems that are easier to operate and extend.
 
-Lately, I have been focused on **developer tools, local-first software, living documentation and practical AI workflows** — especially where better context and automation can remove friction without lowering the engineering bar.
+My current interests sit at the intersection of **developer tools, local-first software, living documentation and applied AI** — especially the practical details that make powerful workflows trustworthy.
 
-## The working route
+## How I work
 
 <p align="center">
   <img width="100%" src="./assets/working-route.svg" alt="Gabriel's engineering route: understand context, define contracts, build a useful slice, operate it and leave a durable trace." />
@@ -28,38 +28,36 @@ Lately, I have been focused on **developer tools, local-first software, living d
 
 ## Selected work
 
-- **[Helix](https://github.com/gabrigabs/desktop-agent)** — a keyboard-first macOS copilot built with Tauri, Rust, React and a local agent runtime.
-- **[Peria](https://github.com/gabrigabs/peria)** — a source-backed technical wiki generator that turns backend repositories into living documentation and agent context.
+- **[Helix](https://github.com/gabrigabs/desktop-agent)** — a keyboard-first macOS copilot for context-rich work, built with Tauri, Rust, React and a local agent runtime.
+- **[Peria](https://github.com/gabrigabs/peria)** — a source-backed technical wiki generator that turns backend repositories into durable documentation and agent context.
 
-## Agora
+## Current focus
 
-I am using this page to keep my current focus visible, not just my finished work.
+I am most interested in work that turns complexity into momentum.
 
-- tightening the GitHub profile system, especially the SVG composition and balance
-- keeping Commit Invaders alive and readable on the profile
-- exploring local-first tooling, living documentation and reusable context for agents
-- shaping workflows that help me move from research to implementation with less friction
+- Building local-first developer tools that keep useful context close to the work.
+- Exploring agent runtimes, MCP, evals and guardrails for reliable applied AI.
+- Turning source code into living documentation that helps teams and agents move faster.
+- Designing backend and product workflows that are clear, observable and built to evolve.
 
-## Engineering range
+## Technical range
 
-| Area | Tools and concerns |
+| Area | What I work with |
 | --- | --- |
 | Backend systems | TypeScript, Node.js, NestJS, Java, Spring, REST APIs, queues and integrations |
 | Product surfaces | React, internal tools, desktop UX, Tauri and workflow design |
 | Data and operations | PostgreSQL, Redis, RabbitMQ, AWS, Docker, observability and automated tests |
 | Applied AI | Agent runtimes, context engineering, MCP, tool use, evals and living documentation |
 
-## Commit Invaders
+## Contribution game
 
 <p align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/gabrigabs/gabrigabs/output/commit-invaders-dark.svg" />
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/gabrigabs/gabrigabs/output/commit-invaders.svg" />
-    <img width="100%" alt="Space Invaders animation generated from Gabriel's GitHub contribution graph" src="https://raw.githubusercontent.com/gabrigabs/gabrigabs/output/commit-invaders.svg" />
+    <img width="100%" alt="Animated space shooter generated from Gabriel's GitHub contribution graph" src="https://raw.githubusercontent.com/gabrigabs/gabrigabs/output/gh-space-shooter.gif" />
   </picture>
 </p>
 
-<sub>The game is regenerated daily from my public contribution graph.</sub>
+<sub>Generated daily from my public contribution graph with <a href="https://github.com/czl9707/gh-space-shooter">gh-space-shooter</a>.</sub>
 
 ## Connect
 
