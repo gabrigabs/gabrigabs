@@ -18,6 +18,9 @@ jobs:
     timeout-minutes: 10
 
     steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
       - name: Generate contribution game
         uses: Goblinlordx/commit-invaders@49ce2ef7dd90272cd98dd06ab39dfeede05897c6 # v1
         with:
