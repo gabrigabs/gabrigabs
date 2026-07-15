@@ -7,6 +7,8 @@
   ·
   <a href="#selected-work">Selected work</a>
   ·
+  <a href="#agora">Agora</a>
+  ·
   <a href="#commit-invaders">Commit Invaders</a>
   ·
   <a href="#connect">Connect</a>
@@ -28,8 +30,15 @@ Lately, I have been focused on **developer tools, local-first software, living d
 
 - **[Helix](https://github.com/gabrigabs/desktop-agent)** — a keyboard-first macOS copilot built with Tauri, Rust, React and a local agent runtime.
 - **[Peria](https://github.com/gabrigabs/peria)** — a source-backed technical wiki generator that turns backend repositories into living documentation and agent context.
-- **[Blueprint Flow](https://github.com/gabrigabs/pi-blueprint-flow)** — a visual cockpit for moving agentic development from research and specification through implementation and review.
-- **[Agentic Development Guide](https://github.com/gabrigabs/agentic-dev-guide)** — an open reference on agents, context, memory, guardrails, evals and reusable engineering templates.
+
+## Agora
+
+I am using this page to keep my current focus visible, not just my finished work.
+
+- tightening the GitHub profile system, especially the SVG composition and balance
+- keeping Commit Invaders alive and readable on the profile
+- exploring local-first tooling, living documentation and reusable context for agents
+- shaping workflows that help me move from research to implementation with less friction
 
 ## Engineering range
 
