@@ -1,0 +1,25 @@
+name: Generate Commit Invaders
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "17 3 * * *"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: commit-invaders
+  cancel-in-progress: true
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+
+    steps:
+      - name: Generate contribution game
+        uses: Goblinlordx/commit-invaders@49ce2ef7dd90272cd98dd06ab39dfeede05897c6 # v1
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          github_user_name: ${{ github.repository_owner }}

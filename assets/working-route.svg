@@ -1,0 +1,73 @@
+<svg width="1200" height="360" viewBox="0 0 1200 360" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">The working route</title>
+  <desc id="desc">A navigation chart showing Gabriel's five-step engineering route: context, contract, build, operate, and trace.</desc>
+  <defs>
+    <pattern id="chart-grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M40 0H0V40" stroke="#EAF2E6" stroke-opacity="0.06"/>
+    </pattern>
+    <marker id="route-arrow" markerWidth="10" markerHeight="10" refX="7" refY="3" orient="auto" markerUnits="strokeWidth">
+      <path d="M0 0L8 3L0 6V0Z" fill="#F4C95D"/>
+    </marker>
+  </defs>
+
+  <rect width="1200" height="360" fill="#0B3D45"/>
+  <rect x="12" y="12" width="1176" height="336" stroke="#43B8A5" stroke-width="2"/>
+  <rect x="24" y="24" width="1152" height="312" fill="url(#chart-grid)"/>
+
+  <text x="58" y="70" fill="#F4C95D" font-family="Courier New, monospace" font-size="13" font-weight="700" letter-spacing="2.5">THE WORKING ROUTE</text>
+  <text x="54" y="111" fill="#EAF2E6" font-family="Georgia, Times New Roman, serif" font-size="36" font-weight="700" font-style="italic">From ambiguity</text>
+  <text x="54" y="151" fill="#EAF2E6" font-family="Georgia, Times New Roman, serif" font-size="36" font-weight="700" font-style="italic">to systems</text>
+  <text x="54" y="191" fill="#EAF2E6" font-family="Georgia, Times New Roman, serif" font-size="36" font-weight="700" font-style="italic">that last.</text>
+  <text x="58" y="229" fill="#A8CEC7" font-family="Arial Narrow, Arial, sans-serif" font-size="14">THE ORDER MATTERS.</text>
+  <text x="58" y="252" fill="#A8CEC7" font-family="Arial Narrow, Arial, sans-serif" font-size="14">EACH STEP LEAVES A TRACE</text>
+  <text x="58" y="275" fill="#A8CEC7" font-family="Arial Narrow, Arial, sans-serif" font-size="14">FOR THE NEXT ONE.</text>
+  <path d="M340 48V312" stroke="#43B8A5" stroke-opacity="0.55" stroke-width="2"/>
+
+  <path d="M402 250C458 137 511 118 576 211C632 291 681 281 732 175C781 73 850 74 901 178C950 278 1017 273 1138 136" stroke="#F4C95D" stroke-width="4" stroke-linecap="round" stroke-dasharray="9 12" marker-end="url(#route-arrow)"/>
+
+  <g fill="#0B3D45">
+    <rect x="387" y="143" width="86" height="28"/>
+    <rect x="520" y="137" width="100" height="28"/>
+    <rect x="688" y="149" width="64" height="28"/>
+    <rect x="840" y="77" width="90" height="28"/>
+    <rect x="1019" y="153" width="70" height="28"/>
+  </g>
+
+  <g>
+    <circle cx="430" cy="202" r="20" fill="#FF6B4A" stroke="#EAF2E6" stroke-width="3"/>
+    <text x="430" y="207" text-anchor="middle" fill="#062B33" font-family="Courier New, monospace" font-size="13" font-weight="700">01</text>
+    <text x="430" y="164" text-anchor="middle" fill="#EAF2E6" font-family="Arial Narrow, Arial, sans-serif" font-size="16" font-weight="700">CONTEXT</text>
+    <text x="430" y="306" text-anchor="middle" fill="#8FC7BD" font-family="Courier New, monospace" font-size="12">map reality</text>
+  </g>
+
+  <g>
+    <circle cx="570" cy="198" r="20" fill="#43B8A5" stroke="#EAF2E6" stroke-width="3"/>
+    <text x="570" y="203" text-anchor="middle" fill="#062B33" font-family="Courier New, monospace" font-size="13" font-weight="700">02</text>
+    <text x="570" y="158" text-anchor="middle" fill="#EAF2E6" font-family="Arial Narrow, Arial, sans-serif" font-size="16" font-weight="700">CONTRACT</text>
+    <text x="570" y="306" text-anchor="middle" fill="#8FC7BD" font-family="Courier New, monospace" font-size="12">shape boundaries</text>
+  </g>
+
+  <g>
+    <circle cx="720" cy="210" r="20" fill="#F4C95D" stroke="#EAF2E6" stroke-width="3"/>
+    <text x="720" y="215" text-anchor="middle" fill="#062B33" font-family="Courier New, monospace" font-size="13" font-weight="700">03</text>
+    <text x="720" y="170" text-anchor="middle" fill="#EAF2E6" font-family="Arial Narrow, Arial, sans-serif" font-size="16" font-weight="700">BUILD</text>
+    <text x="720" y="306" text-anchor="middle" fill="#8FC7BD" font-family="Courier New, monospace" font-size="12">ship the slice</text>
+  </g>
+
+  <g>
+    <circle cx="885" cy="143" r="20" fill="#FF6B4A" stroke="#EAF2E6" stroke-width="3"/>
+    <text x="885" y="148" text-anchor="middle" fill="#062B33" font-family="Courier New, monospace" font-size="13" font-weight="700">04</text>
+    <text x="885" y="98" text-anchor="middle" fill="#EAF2E6" font-family="Arial Narrow, Arial, sans-serif" font-size="16" font-weight="700">OPERATE</text>
+    <text x="885" y="306" text-anchor="middle" fill="#8FC7BD" font-family="Courier New, monospace" font-size="12">observe + recover</text>
+  </g>
+
+  <g>
+    <circle cx="1054" cy="214" r="20" fill="#43B8A5" stroke="#EAF2E6" stroke-width="3"/>
+    <text x="1054" y="219" text-anchor="middle" fill="#062B33" font-family="Courier New, monospace" font-size="13" font-weight="700">05</text>
+    <text x="1054" y="174" text-anchor="middle" fill="#EAF2E6" font-family="Arial Narrow, Arial, sans-serif" font-size="16" font-weight="700">TRACE</text>
+    <text x="1054" y="306" text-anchor="middle" fill="#8FC7BD" font-family="Courier New, monospace" font-size="12">leave context</text>
+  </g>
+
+  <path d="M385 322H1146" stroke="#EAF2E6" stroke-opacity="0.18"/>
+  <text x="1138" y="340" text-anchor="end" fill="#8FC7BD" font-family="Courier New, monospace" font-size="11">ROUTE GB · FORTALEZA / BR</text>
+</svg>
